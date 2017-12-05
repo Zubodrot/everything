@@ -13,7 +13,7 @@ public class lab51 extends JFrame{
 
         MyFrame frame=new MyFrame();
         frame.setTitle("Лабораторная №5 Чумаков Дмитрий ИСБО-10-16");
-        frame.setSize(1800, 1000);
+        frame.setSize(1600, 1200);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new GridLayout(4, 5));
         frame.setVisible(true);
