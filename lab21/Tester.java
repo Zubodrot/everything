@@ -37,8 +37,33 @@ public class Tester {
 
         System.out.println("Новая очередь из студентов");
 
-        for (int i =0; i<5; i++){
+        for (int i =0; i<7; i++){
             System.out.println(A[i]);
         }
+
+        System.out.println();
+
+        System.out.println("Первый элемент очереди");
+        System.out.println(arr.element(A));
+
+        System.out.println();
+
+        System.out.println("Количество элементов");
+        System.out.println(arr.size(A));
+
+        System.out.println();
+
+        System.out.println("Пустая ли очередь");
+        System.out.println(arr.isEmpty(A));
+
+        System.out.println();
+
+
+        System.out.println("Очистить очередь");
+        arr.clear(A);
+        for (int i =0; i<7; i++){
+            System.out.println(A[i]);
+        }
+
     }
 }
